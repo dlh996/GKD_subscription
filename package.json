@@ -1,11 +1,11 @@
 {
-  "name": "@aisouler/gkd_subscription",
+  "name": "@dlh996/gkd_subscription",
   "version": "0.0.188",
   "type": "module",
   "gkd": {
     "outDir": "dist",
-    "file": "AIsouler_gkd.json5",
-    "versionFile": "AIsouler_gkd.version.json5",
+    "file": "gkd.json5",
+    "versionFile": "gkd.version.json5",
     "changelog": "CHANGELOG.md",
     "README.md": "README.md"
   },
@@ -44,11 +44,11 @@
     "@eslint/js": "9.15.0",
     "@gkd-kit/api": "0.6.0",
     "@gkd-kit/define": "0.0.1",
-    "@gkd-kit/tools": "0.5.2",
+    "@gkd-kit/tools": "0.6.0",
     "@types/eslint__js": "8.42.3",
     "@types/node": "22.10.1",
     "eslint": "9.15.0",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "10.0.2",
     "eslint-plugin-unused-imports": "4.1.4",
     "json5": "2.2.3",
     "lint-staged": "15.2.10",
