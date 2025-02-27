@@ -149,10 +149,12 @@ export default defineGkdApp({
             'com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI',
             'com.tencent.mm.ui.LauncherUI',
           ],
-          matches: 'TextView[text="取消登录"] - Button[text="登录"]',
+          matches:
+            'TextView[text="取消登录"||text="登录确认"] - Button[text*="登录"]',
           snapshotUrls: [
             'https://i.gkd.li/i/13522625',
             'https://i.gkd.li/i/13522577',
+            'https://i.gkd.li/i/13522625',
           ],
         },
       ],
