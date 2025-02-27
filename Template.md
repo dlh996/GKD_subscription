@@ -15,9 +15,9 @@
 
 - **欢迎贡献规则，提交pr前请确认您已仔细阅读 [贡献指南](./CONTRIBUTING.md) 和 [API文档](https://gkd.li/api/)，规则编写可参考 [个人收集的通用规则以及适用场景](./Selectors.md)，让规则写起来更轻松！**
 
-- 当前版本: v188
+- 当前版本: v--VERSION--
 
-- 当前订阅文件已适配 796 个应用，共有 1855 应用规则组，3 全局规则组
+- 当前订阅文件已适配 --APP_SIZE-- 个应用，共有 --GROUP_SIZE-- 应用规则组，--GLOBALGROUP_SIZE-- 全局规则组
 
 - 查看 [适配 APP 列表](./dist/README.md)
 
@@ -40,5 +40,5 @@ https://raw.githubusercontent.com/dlh996/GKD_subscription/main/dist/gkd.json5
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=dlh996/GKD_subscription&_v=188)
+![img](https://contrib.rocks/image?repo=dlh996/GKD_subscription&_v=--VERSION--)
 
