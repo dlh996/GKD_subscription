@@ -23,22 +23,7 @@
 
 - 使用 [GKD订阅模板](https://github.com/gkd-kit/subscription-template) 快速构建自己的订阅
 
-- 如何编写订阅/贡献此项目 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-## 订阅
-
-**订阅链接：**
-
-```txt
-https://raw.githubusercontent.com/dlh996/GKD_subscription/main/dist/gkd.json5
-
-```
 
 ## 感谢以下项目
 
 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)
-
-## 感谢以下开发者的贡献
-
-![img](https://contrib.rocks/image?repo=dlh996/GKD_subscription&_v=188)
-
