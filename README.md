@@ -1,5 +1,5 @@
 # @dlh996/GKD_subscription
-## fork自[AIsouler的GKD_subscription]（https://github.com/AIsouler/GKD_subscription）
+## fork自**[AIsouler的GKD_subscription](https://github.com/AIsouler/GKD_subscription)**
 
 ---
 - **本仓库仅供本人学习使用，其他人的任何行为均与本人无关**
