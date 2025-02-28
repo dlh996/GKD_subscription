@@ -21,7 +21,7 @@ apps.forEach((appConfig) => {
 export default defineGkdSubscription({
   id: 511,
   name: 'dlh的GKD订阅',
-  version: 188,
+  version: 1,
   author: 'dlh',
   checkUpdateUrl: './dlh.version.json5',
   supportUri: 'https://github.com/dlh996/GKD_subscription/issues/new/choose',
