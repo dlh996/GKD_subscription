@@ -149,7 +149,7 @@ export default defineGkdApp({
             '.plugin.webwx.ui.ExtDeviceWXLoginUI',
           ],
           action: 'clickCenter',
-          matches: 'LinearLayout > Button',
+          matches: 'LinearLayout > @Button + TextView',
           snapshotUrls: [
             'https://i.gkd.li/i/13522625',
             'https://i.gkd.li/i/13522577',
