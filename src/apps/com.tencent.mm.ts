@@ -149,6 +149,8 @@ export default defineGkdApp({
             'com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI',
             'com.tencent.mm.ui.LauncherUI',
           ],
+          actionDelay: 500,
+          action: 'clickNode',
           matches: 'LinearLayout > Button',
           snapshotUrls: [
             'https://i.gkd.li/i/13522625',
