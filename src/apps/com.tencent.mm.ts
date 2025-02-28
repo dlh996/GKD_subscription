@@ -148,8 +148,7 @@ export default defineGkdApp({
             '.ui.LauncherUI',
             '.plugin.webwx.ui.ExtDeviceWXLoginUI',
           ],
-          actionDelay: 500,
-          action: 'clickNode',
+          action: 'clickCenter',
           matches: 'LinearLayout > Button',
           snapshotUrls: [
             'https://i.gkd.li/i/13522625',
