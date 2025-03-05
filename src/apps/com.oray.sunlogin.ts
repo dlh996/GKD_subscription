@@ -62,14 +62,11 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
-          activityIds: 'com.oray.sunlogin.application.Main',
+          activityIds: '.application.Main',
           matches:
-            '[id="com.oray.sunlogin:id/fl_close_advertise" || vid="iv_dislike"][visibleToUser=true]',
+            '[vid="fl_close_advertise" || vid="iv_dislike"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/2cad526b-1691-45e9-826b-eb92299cb8ee',
-          snapshotUrls: [
-            'https://i.gkd.li/i/13207785',
-            'https://i.gkd.li/i/17159821',
-          ],
+          snapshotUrls: ['https://i.gkd.li/i/13207785'],
         },
       ],
     },
@@ -95,7 +92,10 @@ export default defineGkdApp({
           activityIds: '.application.Main',
           matches: '@[vid="close"][visibleToUser=true] - [vid="ll_remote_end"]',
           exampleUrls: 'https://e.gkd.li/104ba188-b4cd-4922-b27e-f654085eb163',
-          snapshotUrls: 'https://i.gkd.li/i/17782893',
+          snapshotUrls: [
+            'https://i.gkd.li/i/17782893',
+            'https://i.gkd.li/i/17159821',
+          ],
         },
       ],
     },
