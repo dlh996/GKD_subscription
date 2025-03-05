@@ -140,6 +140,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '功能类-电脑微信快捷自动登录',
+      fastQuery: true,
       matchTime: 10000,
       actionMaximum: 1,
       rules: [
@@ -148,7 +149,6 @@ export default defineGkdApp({
             '.ui.LauncherUI',
             '.plugin.webwx.ui.ExtDeviceWXLoginUI',
           ],
-          action: 'clickCenter',
           matches: 'LinearLayout > @Button + TextView',
           snapshotUrls: [
             'https://i.gkd.li/i/13522625',
