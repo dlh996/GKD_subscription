@@ -46,15 +46,18 @@ export default defineGkdApp({
     {
       key: 3,
       name: '分段广告-设备界面顶部广告',
-      activityIds: 'com.tima.carnet.m.main.app.main.MainActivity',
+      activityIds: '.app.main.MainActivity',
       rules: [
         {
           key: 1,
-          matches:
-            '@Image[childCount=0][visibleToUser=true] < View[childCount=1] + View >2 [visibleToUser=true][text="广告"] <<n [id="com.tima.carnet.m.main:id/fl_ad_banner"]',
+          matches: [
+            '[vid="fl_ad_banner"] >n @Image[text.length=0] < View[parent.childCount!=2]',
+            '[vid="fl_ad_banner"] >n [desc^="dislike"]',
+          ],
           snapshotUrls: [
-            'https://i.gkd.li/i/13508030',
+            'https://i.gkd.li/i/13508030', //古老的快照没有VID属性
             'https://i.gkd.li/i/13508115',
+            'https://i.gkd.li/i/19080764',
           ],
         },
         {
